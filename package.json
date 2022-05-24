@@ -1,0 +1,32 @@
+{
+	"name": "array.prototype.unshift",
+	"version": "0.0.0",
+	"description": "ES spec-compliant Array.prototype.unshift shim/polyfill/replacement that works as far down as ES3",
+	"main": "index.js",
+	"exports": {
+		".": "./index.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/es-shims/Array.prototype.unshift.git"
+	},
+	"keywords": [
+		"javascript",
+		"ecmascript",
+		"polyfill",
+		"shim",
+		"es-shim API",
+		"array",
+		"unshift"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/es-shims/Array.prototype.unshift/issues"
+	},
+	"homepage": "https://github.com/es-shims/Array.prototype.unshift#readme"
+}
