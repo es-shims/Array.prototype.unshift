@@ -11,7 +11,7 @@
 
 An ES spec-compliant `Array.prototype.unshift` shim/polyfill/replacement that works as far down as ES3.
 
-This package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment and complies with the [spec](https://tc39.es/ecma262/#sec-array.prototype.concat).
+This package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment and complies with the [spec](https://tc39.es/ecma262/#sec-array.prototype.unshift).
 
 Because `Array.prototype.unshift` depends on a receiver (the “this” value), the main export takes the array to operate on as the first argument.
 
