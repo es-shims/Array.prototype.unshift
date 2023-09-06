@@ -2,13 +2,13 @@
 
 var GetIntrinsic = require('get-intrinsic');
 
-var DeletePropertyOrThrow = require('es-abstract/2022/DeletePropertyOrThrow');
-var Get = require('es-abstract/2022/Get');
-var HasProperty = require('es-abstract/2022/HasProperty');
-var LengthOfArrayLike = require('es-abstract/2022/LengthOfArrayLike');
-var Set = require('es-abstract/2022/Set');
-var ToObject = require('es-abstract/2022/ToObject');
-var ToString = require('es-abstract/2022/ToString');
+var DeletePropertyOrThrow = require('es-abstract/2023/DeletePropertyOrThrow');
+var Get = require('es-abstract/2023/Get');
+var HasProperty = require('es-abstract/2023/HasProperty');
+var LengthOfArrayLike = require('es-abstract/2023/LengthOfArrayLike');
+var Set = require('es-abstract/2023/Set');
+var ToObject = require('es-abstract/2023/ToObject');
+var ToString = require('es-abstract/2023/ToString');
 
 var MAX_SAFE_INTEGER = require('es-abstract/helpers/maxSafeInteger');
 
