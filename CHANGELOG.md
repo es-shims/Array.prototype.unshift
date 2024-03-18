@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.4](https://github.com/es-shims/Array.prototype.unshift/compare/v1.0.3...v1.0.4) - 2024-03-18
+
+### Commits
+
+- [actions] remove redundant finisher [`1db2184`](https://github.com/es-shims/Array.prototype.unshift/commit/1db2184cca3cd769ad8f628bf80bdc2341d9dee9)
+- [Deps] update `call-bind`, `es-abstract` [`353e0be`](https://github.com/es-shims/Array.prototype.unshift/commit/353e0be876a176412909ef764c73ffd00e1e5023)
+- [Refactor] use `es-object-atoms` where possible [`d0178e1`](https://github.com/es-shims/Array.prototype.unshift/commit/d0178e1e393db43c7e02cb927fc7001b6ab0e6bb)
+- [Dev Deps] update `hasown`, `tape` [`983e02f`](https://github.com/es-shims/Array.prototype.unshift/commit/983e02f563875a97264ec022a90cb59e279dd1fa)
+
 ## [v1.0.3](https://github.com/es-shims/Array.prototype.unshift/compare/v1.0.2...v1.0.3) - 2024-02-06
 
 ### Commits
