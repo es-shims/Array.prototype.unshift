@@ -5,7 +5,7 @@ var Get = require('es-abstract/2023/Get');
 var HasProperty = require('es-abstract/2023/HasProperty');
 var LengthOfArrayLike = require('es-abstract/2023/LengthOfArrayLike');
 var Set = require('es-abstract/2023/Set');
-var ToObject = require('es-abstract/2023/ToObject');
+var ToObject = require('es-object-atoms/ToObject');
 var ToString = require('es-abstract/2023/ToString');
 
 var forEach = require('es-abstract/helpers/forEach');
