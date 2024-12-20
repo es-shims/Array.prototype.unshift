@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.5](https://github.com/es-shims/Array.prototype.unshift/compare/v1.0.4...v1.0.5) - 2024-12-20
+
+### Commits
+
+- [actions] split out node 10-20, and 20+ [`fc125dc`](https://github.com/es-shims/Array.prototype.unshift/commit/fc125dcdd8cb8c844dd8a73d9025a1370e6a6aa7)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `auto-changelog`, `tape` [`6d8e59a`](https://github.com/es-shims/Array.prototype.unshift/commit/6d8e59a8292483acf9b9c7664b6ff7bef7b671f8)
+- [Refactor] use `math-intrinsics` directly [`aa45e19`](https://github.com/es-shims/Array.prototype.unshift/commit/aa45e19608bb2780af7f77f47079c6344d588750)
+- [Deps] update `call-bind`, `es-abstract`, `is-string` [`f88f128`](https://github.com/es-shims/Array.prototype.unshift/commit/f88f128f1d7938be2db2199f960ffee72c5b3b98)
+- [Refactor] use `call-bound` directly [`6e4dcd6`](https://github.com/es-shims/Array.prototype.unshift/commit/6e4dcd6319ec848bb734305fce243735a00fab08)
+- [Tests] replace `aud` with `npm audit` [`8b877aa`](https://github.com/es-shims/Array.prototype.unshift/commit/8b877aa73a36f478e3ad624feb6f30b2cc2f5d34)
+- [readme] remove dead badges [`f6aee07`](https://github.com/es-shims/Array.prototype.unshift/commit/f6aee072e9fc834617188fda7c58e11b94b87dae)
+- [Dev Deps] add missing peer dep [`ae2c644`](https://github.com/es-shims/Array.prototype.unshift/commit/ae2c644f2f912403391ad6b33fc6cf6df2823bcb)
+
 ## [v1.0.4](https://github.com/es-shims/Array.prototype.unshift/compare/v1.0.3...v1.0.4) - 2024-03-18
 
 ### Commits
