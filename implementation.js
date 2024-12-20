@@ -12,7 +12,7 @@ var forEach = require('es-abstract/helpers/forEach');
 var MAX_SAFE_INTEGER = require('es-abstract/helpers/maxSafeInteger');
 
 var $TypeError = require('es-errors/type');
-var callBound = require('call-bind/callBound');
+var callBound = require('call-bound');
 var isString = require('is-string');
 
 // Check failure of by-index access of string characters (IE < 9) and failure of `0 in boxedString` (Rhino)
