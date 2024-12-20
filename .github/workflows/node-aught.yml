@@ -7,10 +7,15 @@ permissions:
 
 jobs:
   tests:
-    permissions:
-      contents: read
     uses: ljharb/actions/.github/workflows/node.yml@main
     with:
       range: '< 10'
       type: minors
       command: npm run tests-only
+
+  node:
+    name: 'node < 10'
+    needs: [tests]
+    runs-on: ubuntu-latest
+    steps:
+      - run: true

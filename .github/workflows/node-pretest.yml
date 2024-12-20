@@ -7,6 +7,4 @@ permissions:
 
 jobs:
   tests:
-    permissions:
-      contents: read
     uses: ljharb/actions/.github/workflows/pretest.yml@main
