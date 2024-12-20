@@ -9,14 +9,14 @@ var ToObject = require('es-object-atoms/ToObject');
 var ToString = require('es-abstract/2024/ToString');
 
 var forEach = require('es-abstract/helpers/forEach');
-var MAX_SAFE_INTEGER = require('es-abstract/helpers/maxSafeInteger');
+var MAX_SAFE_INTEGER = require('math-intrinsics/constants/maxSafeInteger');
 
 var $TypeError = require('es-errors/type');
 var callBound = require('call-bound');
 var isString = require('is-string');
 
 // Check failure of by-index access of string characters (IE < 9) and failure of `0 in boxedString` (Rhino)
-var boxedString = Object('a');
+var boxedString = ToObject('a');
 var splitString = boxedString[0] !== 'a' || !(0 in boxedString);
 
 var strSplit = callBound('String.prototype.split');
